@@ -28,6 +28,15 @@ body {
   outline: 2px solid green;
 }
 
+.container-portfolio {
+  width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
+
 ul {
   list-style: none;
   padding: 0;
@@ -175,6 +184,10 @@ ul {
 
 .features-list {
   display: flex;
+}
+
+.features-list .item {
+  width: 270px;
 }
 
 .features-list .title {
