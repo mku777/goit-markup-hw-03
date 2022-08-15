@@ -127,13 +127,15 @@ ul {
 /* Hero */
 .hero {
   text-align: center;
-}
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #2f303a;
+      }
 
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
   color: var(--primary-bg-color);
-  background-color: #2f303a;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -143,7 +145,9 @@ ul {
 
 /* Button */
 .button {
+  text-align: center;
   border-radius: 4px;
+  border: 0;
   padding: 10px 32px;
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
@@ -151,10 +155,15 @@ ul {
   font-size: 16px;
   letter-spacing: 0.06em;
   cursor: pointer;
-
+  height: 50px;
 }
 
 /* Sections */
+
+.section-title,
+.hide-title {
+  display:none;
+}
 
 
 .section {
