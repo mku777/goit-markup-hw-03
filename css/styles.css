@@ -251,6 +251,12 @@ ul {
 
 /* Footer */
 
+.footer {
+  background-color: var(--secondary-bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .adress-nav .link {
   color: #ffffff;
   background-color: var(--secondary-bg-color);
@@ -272,10 +278,6 @@ ul {
 color: var(--accent-color);
 }
 
-.container.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 
 .logo-footer-back {
   margin-bottom: 20px;
