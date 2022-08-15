@@ -353,6 +353,16 @@ margin-right: 8px;
 
 /* Portfolio page titles */
 
+.element-border {
+box-sizing: border-box;
+border: 1px solid #EEEEEE;
+border-top: 0;
+padding-top: 20px;
+padding-left: 24px;
+padding-right: 24px;
+padding-bottom: 20px;
+}
+
 
 .projects-list {
 display: flex;
@@ -362,7 +372,6 @@ flex-wrap: wrap;
 .projects-flex {
   margin-right: 30px;
   margin-bottom: 50px;
-  box-sizing: border-box;
     }
  
   
@@ -389,6 +398,3 @@ flex-wrap: wrap;
   letter-spacing: 0.03em;
 }
 
-.projects-image {
-  margin-bottom: 20px;
-}
