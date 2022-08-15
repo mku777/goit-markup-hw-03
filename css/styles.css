@@ -157,6 +157,11 @@ ul {
 /* Sections */
 
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .section-title {
   margin-top: 0;
   margin-bottom: 50px;
