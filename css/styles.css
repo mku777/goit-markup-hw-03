@@ -308,6 +308,10 @@ color: var(--accent-color);
   margin-bottom: 9px;
 }
 
+.adress-nav-flex .tel {
+  margin-bottom: 0px;
+}
+
 /* Portfolio Page */
 
 
