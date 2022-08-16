@@ -62,8 +62,7 @@ ul {
 .header-main {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
-}
+ }
 
 .logo-link {
   display: flex;
@@ -129,11 +128,13 @@ ul {
 
 /* Hero */
 .hero {
+  box-sizing: content-box;
   text-align: center;
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: #2f303a;
+  margin: auto;
 }
+
+
 
 .hero-title {
   margin-top: 0;
@@ -144,6 +145,11 @@ ul {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding-top: 200px;
+}
+
+.hero-button {
+  padding-bottom: 200px;
 }
 
 /* Button */
@@ -168,10 +174,19 @@ ul {
   display: none;
 }
 
+header {
+  border-bottom: 1px solid #ececec;
+}
+
 
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+section .hero {
+  width: 1600px;
+  heigth: 600px;
 }
 
 .section-title {
@@ -185,10 +200,6 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.container.padding {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 /* Features */
 
