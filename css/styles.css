@@ -213,6 +213,7 @@ section .hero {
 
 .features-list .item {
   width: 270px;
+  height: 100px;
 }
 
 .features-list .title {
