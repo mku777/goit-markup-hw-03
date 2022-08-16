@@ -203,6 +203,11 @@ section .hero {
 
 /* Features */
 
+.section .features {
+  padding-bottom: 0;
+}
+
+
 .features-list {
   display: flex;
 }
@@ -236,6 +241,11 @@ section .hero {
 }
 
 /* Activities */
+
+.actions {
+  padding-top: 0;
+}
+
 
 .activities {
   display: flex;
